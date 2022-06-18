@@ -1,0 +1,16 @@
+
+a{
+	animation:blink 1s infinite;
+	color:white;
+	font-size: 50px;
+	font-family: "Brush Script MT", cursive;
+}
+
+@keyframes blink{
+	0%{opacity:0}
+	50%{opacity:1}
+	100%{opacity:0}
+
+}
+
+
